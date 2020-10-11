@@ -16,6 +16,6 @@ import java.util.Scanner;
       int d3 = a2%10;
       int sum = d1 + d2 + d3;
 
-      System.out.println("Ergebnis " + sum);
+      System.out.println("Ergebnis: " + sum);
         }
   }
