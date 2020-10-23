@@ -6,7 +6,7 @@ import java.util.Scanner;
     public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
 
-      System.out.println("SumOfDigits:");
+      System.out.println("Geben Sie eine Zahl zwischen 0 und 999: ");
 
       int a = input.nextInt();
       int d1 = a%10;
@@ -16,6 +16,6 @@ import java.util.Scanner;
       int d3 = a2%10;
       int sum = d1 + d2 + d3;
 
-      System.out.println("Ergebnis: " + sum);
+      System.out.println("Sum of digits: " + sum);
         }
   }
