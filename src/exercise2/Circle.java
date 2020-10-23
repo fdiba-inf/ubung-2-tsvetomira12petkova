@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Circle {
 
     public static void main(String[] args) {
-      System.out.println("r:");
+      System.out.println("Enter a radius:");
         Scanner input = new Scanner(System.in);
         
 
@@ -14,8 +14,8 @@ public class Circle {
         double C = 2*Pi*r;
         double A = 2*Pi*r*r;
 
-        System.out.println("Circumference " + C);
-        System.out.println("Area " + A  );
+        System.out.println("Circumference: " + C);
+        System.out.println("Area: " + A  );
     }
 
 }
