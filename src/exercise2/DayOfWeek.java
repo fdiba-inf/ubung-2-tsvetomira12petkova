@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DayOfWeek {
   public static void main(String[] args) {
     Scanner input = new Scanner (System.in);
-    System.out.println("Wochentag:");
+    System.out.println("Geben Sie eine Zahl zwischen 1 und 7:");
     int Tag = input.nextInt();
 
   if (Tag==1){
